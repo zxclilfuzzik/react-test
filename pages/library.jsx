@@ -148,12 +148,13 @@ export default function Library(props) {
 }
 
 const container = {
-    marginBottom: '90px'
+    marginBottom: '90px',
+    justifyContent: 'center',
 }
 
 const gridsStyle = {
     display: 'flex',
-    marginLeft: '4.5vw'
+    justifyContent: 'center',
 }
 
 const styleImg = {
