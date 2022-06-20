@@ -13,6 +13,7 @@ export default function Error() {
 
                 <Link href="/"><p style={textButton}>Вернуться домой?</p></Link>
             </div>
+            <Footer />
         </>
     )
 }

@@ -19,7 +19,7 @@ export default function HeaderAuth(props) {
                             Библиотека
                         </Typography>
                     </Link>
-                    <Link href="/radio">
+                    <Link href="/radioauth">
                         <Typography sx={{flexGrow: 2}} style={styleTitleText}>
                             Радио
                         </Typography>
@@ -56,40 +56,3 @@ const styleButton = {
     fontWeigt: 'bold',
     marginRight: '50px'
 }
-
-
-
-            // <AppBar position='fixed' style={styleAppBar}>
-            //     <Toolbar>
-            //         <Link href="/">
-            //             <Typography style={styleText}>
-            //             {props.title || "BLUEBERRY"} 
-            //         </Typography>
-
-                    // </Link>
-                    // <Link href='/'>
-                    //     <Typography style={styleTitleText}>
-                    //         Главная
-                    //     </Typography>
-                    // </Link>
-                    // <Link href="/library">
-                    //     <Typography style={styleTitleText}>
-                    //         Библиотека
-                    //     </Typography>
-                    // </Link>
-                    // <Link href="/radio">
-                    //     <Typography style={styleTitleText}>
-                    //         Радио
-                    //     </Typography>
-                    // </Link>
-                    // <Link href="/search">
-                    //     <Typography style={styleTitleText}>
-                    //         Поиск
-                    //     </Typography>
-                    // </Link>
-            //             <div style={buttonContainer}>
-            //                 <Link href="/login"><Button variant="contained" style={styleButton}>Выйти</Button></Link>
-            //             </div>
-
-            //     </Toolbar>
-            // </AppBar>

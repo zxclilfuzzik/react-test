@@ -2,6 +2,7 @@ import { TextField } from "@mui/material";
 import Title from "../components/title";
 import HeaderAuth from "../components/HeaderAuth/HeaderAuth";
 import Footer from '../components/Footer';
+import Link from "next/link";
 
 export default function Search(props) {
 
@@ -16,7 +17,7 @@ export default function Search(props) {
                  <div style={containerDivStyle}>
                     <h1 style={h1Style}>Популярное</h1>
                     <div style={aContainer}>
-                        <a style={aStyle} href="#">The Beatles</a>
+                        <Link href="/artist"><a style={aStyle} href="#">The Beatles</a></Link>
                         <a style={aStyle} href="#">Jazz</a>
                         <a style={aStyle} href="#">Кино</a>
                         <a style={aStyle} href="#">Высоцкий</a>

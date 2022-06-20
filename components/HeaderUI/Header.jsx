@@ -21,7 +21,7 @@ export default function Header(props) {
                     </Link>
                     <Link href="/radio">
                         <Typography sx={{flexGrow: 2}} style={styleTitleText}>
-                            Блог
+                            Радио
                         </Typography>
                     </Link>
                     <Link href="/login">
@@ -60,38 +60,3 @@ const styleButton = {
     fontWeigt: 'bold',
     marginLeft: '1vw',
 }
-
-const btnContainer = {
-    marginLeft: '50px'
-}
-
-
-{/* <AppBar position='fixed' style={styleAppBar}>
-                <Toolbar>
-                    <Link href="/">
-                        <Typography style={styleText}>
-                        {props.title || "BLUEBERRY"} 
-                    </Typography>
-
-                    </Link>
-                    <Link href='/'>
-                        <Typography style={styleTitleText}>
-                            Главная
-                        </Typography>
-                    </Link>
-                    <Link href="/help">
-                        <Typography style={styleTitleText}>
-                            Поддержка
-                        </Typography>
-                    </Link>
-                    <Link href='/'>
-                        <Typography style={styleTitleText}>
-                            Блог
-                        </Typography>
-                    </Link>
-                        <div style={btnContainer}>
-                            <Link href="/login"><Button variant="contained" style={styleButton}>Войти</Button></Link>
-                            <Link href="/register"><Button variant="contained" style={styleButton}>Регистрация</Button></Link>
-                        </div>
-                </Toolbar>
-            </AppBar> */}

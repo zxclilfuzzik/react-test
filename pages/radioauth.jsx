@@ -1,14 +1,14 @@
-import Header from "../components/HeaderUI/Header";
+import HeaderAuth from "../components/HeaderAuth/HeaderAuth";
 import Script from "next/script";
 import Title from "../components/title";
 
-export default function Radio(props) {
+export default function RadioAuth(props) {
 
     return (
 
         
         <>
-            <Header />
+            <HeaderAuth />
             <div style={{marginTop: '30px', marginLeft: '6.5vw', marginBottom: '30px'}}><Title title="Радио"/></div>
                 <div style={{marginTop: '20vh'}} className="RP_player_5 horizontal"><div className="rp-header">
                     <a href="#">Радио</a>

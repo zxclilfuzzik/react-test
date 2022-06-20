@@ -16,7 +16,7 @@ export default function Library(props) {
                     <div style={gridsStyle}>
                         <div style={styleImg}>
                             <Image
-                            src="/cover6.jpeg"
+                            src="/cover1.jpeg"
                             alt="Picture of the author"
                             width={300}
                             height={300}
@@ -26,7 +26,39 @@ export default function Library(props) {
 
                         <div style={styleImg}>
                             <Image
-                            src="/cover6.jpeg"
+                            src="/cover2.jpeg"
+                            alt="Picture of the author"
+                            width={300}
+                            height={300}
+                            style={styleImg}
+                            />
+                        </div>
+
+                        <div style={styleImg}>
+                            <Image
+                            src="/cover3.jpeg"
+                            alt="Picture of the author"
+                            width={300}
+                            height={300}
+                            style={styleImg}
+                            />
+                        </div>
+                    </div>
+
+                    <div style={gridsStyle}>
+                        <div style={styleImg}>
+                            <Image
+                            src="/cover4.jpeg"
+                            alt="Picture of the author"
+                            width={300}
+                            height={300}
+                            style={styleImg}
+                            />
+                        </div>
+
+                        <div style={styleImg}>
+                            <Image
+                            src="/cover5.jpeg"
                             alt="Picture of the author"
                             width={300}
                             height={300}
@@ -48,7 +80,7 @@ export default function Library(props) {
                     <div style={gridsStyle}>
                         <div style={styleImg}>
                             <Image
-                            src="/cover6.jpeg"
+                            src="/beatlescover1.jpeg"
                             alt="Picture of the author"
                             width={300}
                             height={300}
@@ -58,7 +90,7 @@ export default function Library(props) {
 
                         <div style={styleImg}>
                             <Image
-                            src="/cover6.jpeg"
+                            src="/beatlescover2.jpeg"
                             alt="Picture of the author"
                             width={300}
                             height={300}
@@ -68,39 +100,7 @@ export default function Library(props) {
 
                         <div style={styleImg}>
                             <Image
-                            src="/cover6.jpeg"
-                            alt="Picture of the author"
-                            width={300}
-                            height={300}
-                            style={styleImg}
-                            />
-                        </div>
-                    </div>
-
-                                        <div style={gridsStyle}>
-                        <div style={styleImg}>
-                            <Image
-                            src="/cover6.jpeg"
-                            alt="Picture of the author"
-                            width={300}
-                            height={300}
-                            style={styleImg}
-                            />
-                        </div>
-
-                        <div style={styleImg}>
-                            <Image
-                            src="/cover6.jpeg"
-                            alt="Picture of the author"
-                            width={300}
-                            height={300}
-                            style={styleImg}
-                            />
-                        </div>
-
-                        <div style={styleImg}>
-                            <Image
-                            src="/cover6.jpeg"
+                            src="/beatlescover3.jpeg"
                             alt="Picture of the author"
                             width={300}
                             height={300}
@@ -109,10 +109,10 @@ export default function Library(props) {
                         </div>
                     </div>
 
-                                        <div style={gridsStyle}>
+                     <div style={gridsStyle}>
                         <div style={styleImg}>
                             <Image
-                            src="/cover6.jpeg"
+                            src="/beatlescover4.jpeg"
                             alt="Picture of the author"
                             width={300}
                             height={300}
@@ -122,7 +122,7 @@ export default function Library(props) {
 
                         <div style={styleImg}>
                             <Image
-                            src="/cover6.jpeg"
+                            src="/cover3.jpeg"
                             alt="Picture of the author"
                             width={300}
                             height={300}
@@ -132,7 +132,7 @@ export default function Library(props) {
 
                         <div style={styleImg}>
                             <Image
-                            src="/cover6.jpeg"
+                            src="/cover5.jpeg"
                             alt="Picture of the author"
                             width={300}
                             height={300}
